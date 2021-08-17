@@ -1,0 +1,120 @@
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+header{
+width: 100%;
+height: 300px;
+
+}
+
+.banner{
+    background-image: url("/home/adri/Proyectos/WebComo/resources/visual/bannertrans.png"), url("/home/adri/Proyectos/WebComo/resources/visual/nubesarreglao.gif");
+    background-repeat: no-repeat, no repeat;
+    background-size: cover, cover;
+    background-position: 0px -230px, left top;
+    width: auto;
+    height: 250px;
+}
+
+.nav.flex-container{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color:black;
+    justify-content: center;
+    align-content: center;
+
+}
+.nav-outer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 94%;
+    height: 90%;
+    background-color: white;
+    align-self:center;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+
+}
+.boton-nav{
+    float: left;
+    align-self: center;
+    border: 0px 80px;
+    border-radius: 10px;
+    background-color: rgb(249, 77, 255);
+    border-style: solid;
+    margin: 5px;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.boton-nav a{
+    padding: 0 50px;
+    text-decoration: none;
+    color: black;
+}
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/home/adri/Proyectos/WebComo/resources/visual/nubesarreglao.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#body-outer{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-top: 3%;
+    
+    
+}
+#contrast-body{
+    width: 95%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 20px;
+    text-align: center;
+    
+  
+    
+
+}
+.sticky {
+    position: sticky;
+    top: 0;
+  }
+  .boton-nav:hover{
+      background-color: rgba(212, 196, 196, 0.466);
+      border-radius: 10px;
+      color: rgb(249, 77, 255);
+  }
+  #chp-header{
+      background-color: rgba(0, 0, 0, 0.603);
+      color:rgb(249, 77, 255) ;
+      width: 30%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      padding: 3px 0px;
+      font-weight: 700;
+      text-shadow: 1px 1px black,
+                  -1px -1px black;
+     
+      
+  }
+
+  .black-color{
+      color: black;
+      text-shadow: none;
+  }
+  #letras{
+    height: auto;
+    margin-bottom: -12%;
+    margin-top: -5%;
+  }
