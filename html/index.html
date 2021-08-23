@@ -10,7 +10,7 @@
         <title>Como Hacer Podcasts</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/home/adri/Proyectos/WebComo/resources/css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <header>
         <div class = "banner">
@@ -18,8 +18,8 @@
         </div>
         <div class="nav flex-container">
             <ul class= "nav-outer">
-                <li class="boton-nav"><a href="/home/adri/Proyectos/WebComo/resources/html/index.html">Inicio</a></li>
-                <li class="boton-nav"><a href="/home/adri/Proyectos/WebComo/resources/html/nosotros.html">Nosotros</a></li>
+                <li class="boton-nav"><a href="../html/index.html">Inicio</a></li>
+                <li class="boton-nav"><a href="../html/nosotros.html">Nosotros</a></li>
                 <li class="boton-nav"><a href="">Contacto</a></li>
                 <li class="boton-nav"><a href="">Miranos</a></li>
             </ul>
