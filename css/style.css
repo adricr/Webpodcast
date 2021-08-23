@@ -9,7 +9,7 @@ height: 300px;
 }
 
 .banner{
-    background-image: url("/home/adri/Proyectos/WebComo/resources/visual/bannertrans.png"), url("/home/adri/Proyectos/WebComo/resources/visual/nubesarreglao.gif");
+    background-image: url("../visual/bannertrans.png"), url("../visual/nubesarreglao.gif");
     background-repeat: no-repeat, no repeat;
     background-size: cover, cover;
     background-position: 0px -230px, left top;
@@ -61,7 +61,7 @@ body{
   margin: 0;
   height: 100%;
   width: 100%;
-  background-image: url("/home/adri/Proyectos/WebComo/resources/visual/nubesarreglao.gif");
+  background-image: url("../visual/nubesarreglao.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
